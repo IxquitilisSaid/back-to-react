@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "no-console": ["off"],
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/no-deprecated": "off",
+    "curly": ["error", "all"],
+    "comma-dangle": ["error", "only-multiline"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "arrow-parens": ["error", "always"],
+    "no-extra-boolean-cast": "error",
+    "space-before-blocks": "error",
+    "space-infix-ops": "error",
+    "array-bracket-spacing": ["error", "never"],
+    "dot-location": ["error", "property"],
+    "no-var": "error",
+    "camelcase": ["error", { "properties": "always" }],
+    "func-names": ["error", "always"],
+    "no-extra-bind": "error",
+    "brace-style": ["error", "1tbs"],
+    "keyword-spacing": ["error", { "before": true }]
+  }
+}
