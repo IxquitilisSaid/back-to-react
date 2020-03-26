@@ -13,7 +13,6 @@ function YeOldTome() {
             <div className="YeOldTome-page2"></div>
             <div className="YeOldTome-page1"></div>
             <div className="YeOldTome-front"></div>
-            {/* <div className="YeOldTome-skrr"></div> */}
         </div>
     );
 }
